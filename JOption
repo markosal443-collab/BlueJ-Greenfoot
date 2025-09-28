@@ -1,0 +1,24 @@
+import javax.swing.JOptionPane;
+public class JOPassignment
+{
+    public static void main(String[] args)
+    {
+        String name="", age="", address="", course="", school="";
+        name = JOptionPane.showInputDialog("Enter your Name:");
+        JOptionPane.showMessageDialog(null,msg);
+        
+        age = JOptionPane.showInputDialog("Enter your Age:");
+        JOptionPane.showMessageDialog(null,msg);
+        
+        address = JOptionPane.showInputDialog("Enter your Address:");
+        JOptionPane.showMessageDialog(null,msg);
+        
+        course = JOptionPane.showInputDialog("Enter your Course:");
+        JOptionPane.showMessageDialog(null,msg);
+        
+        school = JOptionPane.showInputDialog("Enter your School Name:");
+        JOptionPane.showMessageDialog(null,msg);
+        
+        String msg = "Hello everyone! This is " + name + ", " + age + " years old from " + address + ". She studies " + course + " at " + school;
+    }
+}
